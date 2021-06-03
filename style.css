@@ -1,0 +1,28 @@
+#header
+{
+    width: 100%;
+    margin-top: 0px;
+    box-shadow:  15px 15px 20px black;
+    font-size: 30px;
+}
+.b1
+{
+    font-size: 30px;
+}
+canvas
+{
+    border:5px solid black;
+    margin-top:60px;
+    animation-name:example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from {box-shadow: 2px 2px 40px yellow;} to{box-shadow: 2px 2px 40px orangered;}
+}
+body
+{
+    background-size: cover;
+    background-position: center;
+}
